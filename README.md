@@ -20,6 +20,9 @@
 **Файл:** Lab01-01.dll  
 - **Результат:** 39/70 антивирусов детектируют как malicious
 - **Платформа:** VirusTotal
+![Screenshot_2](https://github.com/user-attachments/assets/07f50695-ed53-43b5-b5e7-45e3fe1747cc)
+![Screenshot_4](https://github.com/user-attachments/assets/e3b8e1db-11e0-4666-a2ac-0c79047e2a47)
+
 
 #### Вопрос 2: Когда эти файлы были скомпилированы?
 **Lab01-01.exe:** 2010-12-19 16:16:19 UTC
