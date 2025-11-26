@@ -1,4 +1,6 @@
-# Анализ вредоносного ПО: Lab01-01.exe и Lab01-01.dll
+# Анализ вредоносного ПО: 
+
+## Работа 1.1
 
 ##  Общая информация
 - **Дата анализа:** [24.11.2025]
@@ -83,6 +85,46 @@ CreateMutexA, OpenMutexA - создание и открытия мьютекса
 ### Вопрос 7: Как вы думаете, каково назначение этих файлов? 
 Lab01-01.exe - Загрузчик.Меняет конфигурацию системы
 Lab01-01.dll - Открывает доступ к системе через интернет
+
+
+## Работа 1.2
+
+### Вопрос 1. Загрузите файл Lab01-02.exe на сайт www.VirusTotal.com. Соответствует ли он какой-то из 
+### имеющихся антивирусных сигнатур? 
+
+![Screenshot_1](https://github.com/user-attachments/assets/7b59b971-c709-4766-be09-a75831e19dca)
+
+### Вопрос 2. Есть ли какие-либо признаки того, что файл упакован или обфусцирован? Если да, то что это за 
+### признаки? Если файл упакован, попробуйте его распаковать. 
+
+![Screenshot_2](https://github.com/user-attachments/assets/4462c0e5-fb21-4229-a8ab-3e680a70b8a4)
+![Screenshot_3](https://github.com/user-attachments/assets/2c0f487d-19cc-4b71-89ee-f2432c60ba32)
+![Screenshot_7](https://github.com/user-attachments/assets/e575a0ee-7f07-4418-a7f8-8f1a71c55965)
+
+
+### Вопрос 3. Выдают ли какие-либо импорты функций назначение программы? Если да, то что это за функции 
+### и о чем они вам говорят? 
+
+InternetOpenA - подключается к интернету
+CreateServiceA - создает службу Windows
+LoadLibraryA - загрузка дополнительных библиотек
+![Screenshot_4](https://github.com/user-attachments/assets/63d20ed1-54cb-465e-80f0-947590755f5d)
+
+### Вопрос 4. С помощью каких локальных или сетевых признаков можно было бы обнаружить этот вредонос 
+### на зараженных компьютерах? 
+
+![Screenshot_5](https://github.com/user-attachments/assets/3d2cbe23-0f49-449e-bf96-8aadd77d9610)
+![Screenshot_6](https://github.com/user-attachments/assets/63d71c3f-7649-46e0-80fe-b866b0fd6ade)
+
+CreateMutexA ,OpenMutexA - Создает и открывает мьютекс
+InternetOpenUrlA , InternetOpenA - выходит в интернет
+Сетевые подключения к malwareanalysisbook.com
+
+
+## Работа 1.3
+
+
+
 
 
 
